@@ -1,0 +1,9 @@
+{
+  "id": "NVIDIA: Nemotron 3 Ultra",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "provider": "OpenRouter",
+  "input_cost_per_1m_tokens": 0,
+  "output_cost_per_1m_tokens": 0,
+  "context_window": "1M",
+  "justification": "This model provides 55B active / 550B total parameter frontier-reasoning and orchestration capabilities within a shared LiteLLM budget envelope. Built on a hybrid Transformer-Mamba mixture-of-experts (MoE) architecture, it is tailored for long-running agentic workflows and complex multi-step planning. The overall $0.50 cap is enforced across cumulative spend, including embedding calls such as Gemini embeddings and Graphiti-related calls. The massive 1M context window effortlessly handles comprehensive security log analysis, deep research, and extensive pentesting strategy planning."
+}
