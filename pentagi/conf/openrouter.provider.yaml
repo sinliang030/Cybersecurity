@@ -1,0 +1,130 @@
+simple:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.6
+  top_p: 0.95
+  n: 1
+  max_tokens: 4000
+  price:
+    input: 0
+    output: 0
+
+simple_json:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 1.0
+  n: 1
+  max_tokens: 4000
+  json: true
+  price:
+    input: 0
+    output: 0
+
+primary_agent:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 6000
+  price:
+    input: 0
+    output: 0
+
+assistant:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 6000
+  price:
+    input: 0
+    output: 0
+
+generator:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 12000
+  price:
+    input: 0
+    output: 0
+
+refiner:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 10000
+  price:
+    input: 0
+    output: 0
+
+adviser:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 6000
+  price:
+    input: 0
+    output: 0
+
+reflector:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.8
+  top_p: 1.0
+  n: 1
+  max_tokens: 4000
+  price:
+    input: 0
+    output: 0
+
+searcher:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 4000
+  price:   
+    input: 0
+    output: 0
+
+enricher:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.95
+  top_p: 1.0
+  n: 1
+  max_tokens: 6000
+  price:
+    input: 0
+    output: 0
+
+coder:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.2
+  top_p: 0.5
+  n: 1
+  max_tokens: 8000
+  price:
+    input: 0
+    output: 0
+
+installer:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.2
+  top_p: 0.5
+  n: 1
+  max_tokens: 4000
+  price:
+    input: 0
+    output: 0
+
+pentester:
+  model: "nvidia/nemotron-3-super-120b-a12b:free"
+  temperature: 0.7
+  top_p: 0.95
+  n: 1
+  max_tokens: 6000
+  price:
+    input: 0
+    output: 0
